@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+@font-face {
+  font-family: "ArthurHill";
+  src: url("../fonts/ArthurHillRegular.woff2") format("woff2"),
+    url("../fonts/ArthurHillRegular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+   font-family:Poppins, sans-serif ;
+}
+div {
+   background-color:rgba(238, 226, 211, 0.712);
+   margin-bottom: 20px;
+}
+a {
+   color: rgba(0, 0, 255, 0.842);
+}
+div.text-iceland {
+   color: rgb(233, 98, 98);
+}
+
+P {
+   text-indent: 20px;
+}
+
+
+/*========MAIN==========*/
+
+h1 {
+  font-family: "ArthurHill", sans-serif;
+  color: red;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+/* ===symbols-of-iceland ===*/
+.symbols-of-iceland {
+   background-color:rgba(56, 243, 243, 0.699);
+   padding: 20px;
+   margin-bottom: 20px;
+}
+/* ===/symbols-of-iceland ===*/
+/* =======text-iceland ======*/
+.book-iceland {
+   color: rgb(27, 172, 5);
+   text-align: center;
+}
+/* =======/text-iceland ======*/
+/*======= book ============== */
+#book {
+   padding: 20px;
+}
+
+.book__title {
+   text-align: center;
+   font-size: 25px;
+   color: rgb(27, 172, 5);
+}
+.book__item > span {
+   color: red;
+   font-size: 20px;
+   text-transform: capitalize;
+   font-style: italic;
+}
+/*======= /book ============== */
+/*=========population========= */
+.population__decr {
+   margin-bottom: 5px;
+}
+.population__distribution {
+   color: rgb(50, 69, 118);
+   font-style: oblique;
+   text-align: center;
+   text-transform: capitalize;
+   text-shadow: 2px 2px 5px #00000075;
+   line-height: 1.2;
+   letter-spacing: 3px;
+   word-spacing: 10px;
+}
+
+.population__distr {
+   margin-bottom: 30px;
+}
+
+.population__distr ~ p {
+   color: rgba(229, 33, 33, 0.704);
+   font-weight: 600;
+   text-align: justify;
+}
+
+.population__outside {
+   text-decoration: overline;
+   word-spacing: 3px;
+}
+
+.population__age {
+   text-decoration: underline;
+   word-spacing: 6px;
+}
+
+/*=========/population======== */
+
+/*========/MAIN==========*/
